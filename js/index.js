@@ -41,6 +41,7 @@ const siteContent = {
     copyright: "Copyright Great Idea! 2018",
   },
 };
+// 
 // Header start
 // Example: Update the img src for the logo
 let completeNav = document.querySelectorAll("nav a");
