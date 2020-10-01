@@ -41,7 +41,6 @@ const siteContent = {
     copyright: "Copyright Great Idea! 2018",
   },
 };
-// 
 // Header start
 // Example: Update the img src for the logo
 let completeNav = document.querySelectorAll("nav a");
@@ -59,7 +58,6 @@ logo.setAttribute("src", siteContent["nav"]["img-src"]);
 let theHeader = document.querySelector(".cta-text h1");
 theHeader.textContent = siteContent ["cta"]
 ["h1"]
-theHeader.
 let theButton = document.querySelector(".cta-text button");
 theButton.textContent = siteContent["cta"]["button"];
 let ctaImg = document.getElementById('cta-img');
